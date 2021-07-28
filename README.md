@@ -1,5 +1,7 @@
 # daylight
-Output sunrise, sunset, and total daylight hours in CSV fomat.
+Output sunrise, sunset, and total daylight hours in CSV fomat. Originally created for comparison with solar inverter output,
+but probably has additional uses. Output is in CSV format for easy import into a database of LibreOffice Calc / MS Excel sheet.
+
 
 ## Prerequisite
 `npm install suncalc`
@@ -21,8 +23,3 @@ To output sunrise, sunset, and hours of day light from January 1, 2021 until tod
 To output sunrise, sunset, and hours of day light from October 31, 2020 to November 1, 2021:
 
 `node daylight.js 2020-10-31 2021-11-01`
-
-## Notes
-This was originally created for comparison with solar inverter output, but it probably has
-additional uses. Output is in CSV format for easy import into a database of LibreOffice
-Calc / MS Excel sheet.
