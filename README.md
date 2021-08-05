@@ -14,6 +14,7 @@ Edit daylight.js to set the latitude and longitude for your location.
 `node daylight.js`
 
 ## Example Output
+```
 month,date,leapYear,sunrise,sunset,daylight_hours
 1,1,0,01:35:41,10:38:55,9.05
 1,2,0,01:35:44,10:39:46,9.07
@@ -31,3 +32,4 @@ month,date,leapYear,sunrise,sunset,daylight_hours
 1,14,0,01:33:17,10:52:13,9.32
 1,15,0,01:32:49,10:53:23,9.34
 ...
+```
